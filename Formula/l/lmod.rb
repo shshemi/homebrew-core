@@ -4,6 +4,7 @@ class Lmod < Formula
   url "https://github.com/TACC/Lmod/archive/refs/tags/8.7.49.tar.gz"
   sha256 "f27877fd73926bb08cab923306d86609e6aaf525fb75842b8035f18ae3e18c5e"
   license "MIT"
+  revision 1
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_sequoia:  "416ec241b257f9d019c840b3bdd36ed86b89467ffcd882740d6510b85add2620"
