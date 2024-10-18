@@ -6,8 +6,8 @@ class Phpmd < Formula
   license "BSD-3-Clause"
 
   bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, all: "28cd360f0eea58782927875c91b4d709764ae46076f79d88681e2fcb73cf041e"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, all: "fbe0a3fa4cc6c44710e911e143627b208b951eb016a822f9ebdf25c11240668b"
   end
 
   # Upstream does not support Phar download anymore, see https://github.com/phpmd/phpmd/issues/971
